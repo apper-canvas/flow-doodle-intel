@@ -1,0 +1,142 @@
+[
+  {
+    "id": "cat",
+    "word": "cat",
+    "difficulty": 1,
+    "category": "animals",
+    "hints": ["It meows", "Pet with whiskers", "Chases mice"]
+  },
+  {
+    "id": "dog",
+    "word": "dog",
+    "difficulty": 1,
+    "category": "animals",
+    "hints": ["Man's best friend", "It barks", "Loyal pet"]
+  },
+  {
+    "id": "house",
+    "word": "house",
+    "difficulty": 1,
+    "category": "objects",
+    "hints": ["You live in it", "Has a roof", "Home sweet home"]
+  },
+  {
+    "id": "car",
+    "word": "car",
+    "difficulty": 1,
+    "category": "transport",
+    "hints": ["Four wheels", "You drive it", "Vehicle"]
+  },
+  {
+    "id": "tree",
+    "word": "tree",
+    "difficulty": 1,
+    "category": "nature",
+    "hints": ["Has leaves", "Grows tall", "Made of wood"]
+  },
+  {
+    "id": "sun",
+    "word": "sun",
+    "difficulty": 1,
+    "category": "nature",
+    "hints": ["Bright in sky", "Yellow star", "Gives light"]
+  },
+  {
+    "id": "fish",
+    "word": "fish",
+    "difficulty": 1,
+    "category": "animals",
+    "hints": ["Lives in water", "Has fins", "Swims"]
+  },
+  {
+    "id": "butterfly",
+    "word": "butterfly",
+    "difficulty": 2,
+    "category": "animals",
+    "hints": ["Colorful wings", "Flying insect", "Likes flowers"]
+  },
+  {
+    "id": "guitar",
+    "word": "guitar",
+    "difficulty": 2,
+    "category": "objects",
+    "hints": ["Musical instrument", "Has strings", "You strum it"]
+  },
+  {
+    "id": "pizza",
+    "word": "pizza",
+    "difficulty": 2,
+    "category": "food",
+    "hints": ["Round food", "Has cheese", "Italian dish"]
+  },
+  {
+    "id": "rainbow",
+    "word": "rainbow",
+    "difficulty": 2,
+    "category": "nature",
+    "hints": ["Many colors", "After rain", "Arc in sky"]
+  },
+  {
+    "id": "elephant",
+    "word": "elephant",
+    "difficulty": 2,
+    "category": "animals",
+    "hints": ["Large animal", "Has trunk", "Gray color"]
+  },
+  {
+    "id": "castle",
+    "word": "castle",
+    "difficulty": 3,
+    "category": "objects",
+    "hints": ["Medieval building", "Has towers", "King's home"]
+  },
+  {
+    "id": "helicopter",
+    "word": "helicopter",
+    "difficulty": 3,
+    "category": "transport",
+    "hints": ["Flying machine", "Has rotor", "Vertical takeoff"]
+  },
+  {
+    "id": "microscope",
+    "word": "microscope",
+    "difficulty": 3,
+    "category": "objects",
+    "hints": ["Scientific tool", "Magnifies small things", "Used in labs"]
+  },
+  {
+    "id": "waterfall",
+    "word": "waterfall",
+    "difficulty": 3,
+    "category": "nature",
+    "hints": ["Water falling down", "Natural wonder", "Makes mist"]
+  },
+  {
+    "id": "spaceship",
+    "word": "spaceship",
+    "difficulty": 3,
+    "category": "transport",
+    "hints": ["Travels in space", "Futuristic vehicle", "To other planets"]
+  },
+  {
+    "id": "dinosaur",
+    "word": "dinosaur",
+    "difficulty": 2,
+    "category": "animals",
+    "hints": ["Extinct reptile", "Lived long ago", "Some were huge"]
+  },
+  {
+    "id": "snowman",
+    "word": "snowman",
+    "difficulty": 2,
+    "category": "objects",
+    "hints": ["Made of snow", "Winter figure", "Has carrot nose"]
+  },
+  {
+    "id": "lighthouse",
+    "word": "lighthouse",
+    "difficulty": 3,
+    "category": "objects",
+    "hints": ["Tall tower", "Guides ships", "By the sea"]
+  }
+]

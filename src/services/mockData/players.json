@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "totalCoins": 1250,
+    "highScore": 2840,
+    "unlockedBrushes": ["default", "neon", "pixel", "watercolor"],
+    "level": 8,
+    "experience": 7650,
+    "gamesPlayed": 47,
+    "totalDrawings": 235,
+    "bestStreak": 12,
+    "achievements": ["first_win", "streak_5", "level_5", "coin_collector"],
+    "createdAt": 1698000000000
+  },
+  {
+    "id": 2,
+    "totalCoins": 450,
+    "highScore": 1200,
+    "unlockedBrushes": ["default", "neon"],
+    "level": 3,
+    "experience": 2100,
+    "gamesPlayed": 15,
+    "totalDrawings": 78,
+    "bestStreak": 6,
+    "achievements": ["first_win", "streak_5"],
+    "createdAt": 1698100000000
+  },
+  {
+    "id": 3,
+    "totalCoins": 2890,
+    "highScore": 4560,
+    "unlockedBrushes": ["default", "neon", "pixel", "watercolor", "crayon", "marker"],
+    "level": 15,
+    "experience": 14230,
+    "gamesPlayed": 89,
+    "totalDrawings": 445,
+    "bestStreak": 18,
+    "achievements": ["first_win", "streak_5", "streak_10", "level_5", "level_10", "coin_collector", "master_artist"],
+    "createdAt": 1697900000000
+  }
+]

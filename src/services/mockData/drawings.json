@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "strokes": [
+      {
+        "id": 101,
+        "points": [{"x": 50, "y": 100}, {"x": 75, "y": 120}, {"x": 100, "y": 100}],
+        "color": "#FF6B6B",
+        "size": 4,
+        "timestamp": 1698123456789
+      },
+      {
+        "id": 102,
+        "points": [{"x": 60, "y": 80}, {"x": 90, "y": 80}],
+        "color": "#FF6B6B",
+        "size": 3,
+        "timestamp": 1698123457234
+      }
+    ],
+    "wordId": "cat",
+    "timestamp": 1698123456000,
+    "completed": true,
+    "completedAt": 1698123467890
+  },
+  {
+    "id": 2,
+    "strokes": [
+      {
+        "id": 201,
+        "points": [{"x": 20, "y": 150}, {"x": 20, "y": 50}, {"x": 180, "y": 50}, {"x": 180, "y": 150}, {"x": 20, "y": 150}],
+        "color": "#4ECDC4",
+        "size": 5,
+        "timestamp": 1698123500000
+      },
+      {
+        "id": 202,
+        "points": [{"x": 100, "y": 50}, {"x": 100, "y": 20}],
+        "color": "#FFE66D",
+        "size": 6,
+        "timestamp": 1698123505000
+      }
+    ],
+    "wordId": "house",
+    "timestamp": 1698123498000,
+    "completed": true,
+    "completedAt": 1698123510000
+  },
+  {
+    "id": 3,
+    "strokes": [
+      {
+        "id": 301,
+        "points": [{"x": 30, "y": 100}, {"x": 50, "y": 80}, {"x": 80, "y": 85}, {"x": 120, "y": 90}, {"x": 160, "y": 95}, {"x": 190, "y": 100}],
+        "color": "#FF6B6B",
+        "size": 4,
+        "timestamp": 1698123600000
+      },
+      {
+        "id": 302,
+        "points": [{"x": 35, "y": 105}, {"x": 55, "y": 85}, {"x": 85, "y": 90}, {"x": 125, "y": 95}, {"x": 165, "y": 100}, {"x": 185, "y": 105}],
+        "color": "#FFE66D",
+        "size": 4,
+        "timestamp": 1698123602000
+      }
+    ],
+    "wordId": "rainbow",
+    "timestamp": 1698123595000,
+    "completed": false
+  }
+]

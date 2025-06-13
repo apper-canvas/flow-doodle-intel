@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import react-toastify CSS */
+@import 'react-toastify/dist/ReactToastify.css';
+
+/* Ensure scrollbars are visible */
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 0;
+  min-height: 100vh;
+  background-color: #1F2128;
+  font-family: 'Plus Jakarta Sans', ui-sans-serif, system-ui;
+}
+
+/* Prevent horizontal overflow */
+* {
+  max-width: 100%;
+}
+
+/* Main content areas must allow scroll */
+.main-content {
+  overflow-y: auto;
+  height: 100vh;
+}
+
+/* Canvas specific styles */
+canvas {
+  touch-action: none;
+  cursor: crosshair;
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Game specific utilities */
+  .stroke-shimmer {
+    animation: shimmer 0.5s ease-out;
+  }
+  
+  @keyframes shimmer {
+    0% { opacity: 1; filter: brightness(1.5) drop-shadow(0 0 8px currentColor); }
+    100% { opacity: 1; filter: brightness(1) drop-shadow(none); }
+  }
+}

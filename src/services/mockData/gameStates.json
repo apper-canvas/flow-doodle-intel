@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "currentWord": "cat",
+    "timeRemaining": 25,
+    "score": 450,
+    "coins": 9,
+    "gamePhase": "drawing",
+    "difficulty": 1,
+    "round": 3,
+    "maxRounds": 5,
+    "totalScore": 1250,
+    "streak": 2
+  },
+  {
+    "id": 2,
+    "currentWord": "house",
+    "timeRemaining": 0,
+    "score": 320,
+    "coins": 6,
+    "gamePhase": "results",
+    "difficulty": 2,
+    "round": 1,
+    "maxRounds": 5,
+    "totalScore": 320,
+    "streak": 0
+  },
+  {
+    "id": 3,
+    "currentWord": "rainbow",
+    "timeRemaining": 15,
+    "score": 800,
+    "coins": 16,
+    "gamePhase": "guessing",
+    "difficulty": 3,
+    "round": 4,
+    "maxRounds": 5,
+    "totalScore": 2100,
+    "streak": 4
+  }
+]
