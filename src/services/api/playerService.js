@@ -156,7 +156,7 @@ class PlayerService {
     return { ...this.currentPlayer };
   }
 
-  async getAll() {
+async getAll() {
     await delay(200);
     return [...players];
   }
@@ -190,6 +190,42 @@ class PlayerService {
   async delete(id) {
     await delay(200);
     return { success: true };
+  }
+
+  // Multiplayer methods
+  async authenticateUser(username) {
+    await delay(300);
+    if (!username || username.trim().length < 2) {
+      throw new Error('Username must be at least 2 characters long');
+    }
+
+    const user = {
+      id: Date.now(),
+      username: username.trim(),
+      isOnline: true,
+      inLobby: false,
+      currentLobbyId: null,
+      joinedAt: Date.now()
+    };
+
+    return { ...user };
+  }
+
+  async getAllOnlineUsers() {
+    await delay(200);
+    // Simulate online users for demo
+    const onlineUsers = [
+      { id: 1, username: 'Player1', isOnline: true, inLobby: false },
+      { id: 2, username: 'Player2', isOnline: true, inLobby: true },
+      { id: 3, username: 'Player3', isOnline: true, inLobby: false }
+    ];
+    return onlineUsers;
+  }
+
+  async updateUserStatus(userId, status) {
+    await delay(150);
+    // Status could be: online, offline, inLobby, inGame
+    return { success: true, userId, status };
   }
 }
 

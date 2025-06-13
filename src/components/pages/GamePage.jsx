@@ -305,7 +305,7 @@ const GamePage = () => {
                 <p className="text-xl text-gray-400">
                   Draw fast, let AI guess faster!
                 </p>
-              </motion.div>
+</motion.div>
               
               <div className="flex flex-col space-y-4 w-full max-w-xs">
                 <motion.button
@@ -316,6 +316,16 @@ const GamePage = () => {
                 >
                   <ApperIcon name="Play" className="w-6 h-6 inline mr-2" />
                   Start Game
+                </motion.button>
+                
+                <motion.button
+                  whileHover={{ scale: 1.05, y: -2 }}
+                  whileTap={{ scale: 0.95 }}
+                  onClick={() => window.location.href = '/multiplayer'}
+                  className="py-4 px-8 bg-gradient-to-r from-accent to-info text-white rounded-full text-xl font-bold shadow-lg"
+                >
+                  <ApperIcon name="Users" className="w-6 h-6 inline mr-2" />
+                  Multiplayer
                 </motion.button>
                 
                 <div className="grid grid-cols-3 gap-2">

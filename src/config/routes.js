@@ -1,4 +1,5 @@
 import GamePage from '@/components/pages/GamePage';
+import MultiplayerPage from '@/components/pages/MultiplayerPage';
 
 export const routes = {
   game: {
@@ -7,6 +8,13 @@ export const routes = {
     path: '/',
     icon: 'Gamepad2',
     component: GamePage
+  },
+  multiplayer: {
+    id: 'multiplayer',
+    label: 'Multiplayer',
+    path: '/multiplayer',
+    icon: 'Users',
+    component: MultiplayerPage
   }
 };
 

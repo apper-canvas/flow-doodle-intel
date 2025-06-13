@@ -122,7 +122,7 @@ const GameControls = ({ brushSettings, onBrushChange, onUndo, onClear, disabled 
           </motion.button>
         </div>
 
-        {/* Action Buttons */}
+{/* Action Buttons */}
         <div className="flex items-center space-x-2">
           <motion.button
             whileHover={{ scale: 1.05 }}
@@ -144,6 +144,14 @@ const GameControls = ({ brushSettings, onBrushChange, onUndo, onClear, disabled 
             <ApperIcon name="Trash2" className="w-5 h-5" />
           </motion.button>
         </div>
+
+        {/* Team Indicator (Multiplayer) */}
+        {false && ( // Will be enabled when in multiplayer mode
+          <div className="flex items-center space-x-2 px-3 py-2 bg-primary/20 border border-primary/30 rounded-lg">
+            <ApperIcon name="Users" className="w-4 h-4 text-primary" />
+            <span className="text-primary text-sm font-medium">Team 1</span>
+          </div>
+        )}
       </div>
     </motion.div>
   );
